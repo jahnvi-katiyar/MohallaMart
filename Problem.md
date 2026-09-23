@@ -1,10 +1,11 @@
-# Problem Analysis
+# Problem Analysis 
 
-## Problem Statement
+### Problem Statement
+## Domain 4: Local Business & E-Commerce
 
 **Shop Product Catalog & Inquiry Hub**
 
-Neighborhood shops often depend on physical footfall, phone calls, WhatsApp messages, and word-of-mouth to showcase their products. Customers have limited visibility into what local shops actually have in stock before visiting them.
+Neighborhood shops lack a web storefront to display available stocks. Build a lightweight product showcase where store owners list products and receive customer inquiries.
 
 The core gap is:
 
