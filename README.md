@@ -63,7 +63,9 @@ This is a client-side Vite SPA backed by Supabase, so Vercel can serve it as a s
 1. Import the GitHub repository into Vercel and use the project root as the Vercel root directory.
 2. Set the build command to `npm run build` and the output directory to `dist` (Vercel usually detects these for Vite).
 3. Add `VITE_SUPABASE_URL` and `VITE_SUPABASE_PUBLISHABLE_KEY` under Vercel's environment variables for the deployment environments you use. Do not add a service-role key.
-4. Deploy, then add the final HTTPS site URL to Supabase Auth's allowed redirect URLs/site URL. Confirm the production URL and password-reset/email confirmation flows.
-5. Apply migrations to the Supabase project before using the deployed app. Bootstrap an admin and approve demo or real listings as described in `ADMIN_SETUP.md`.
+
+5. Deploy, then add the final HTTPS site URL to Supabase Auth's allowed redirect URLs/site URL. Confirm the production URL and password-reset/email confirmation flows.
+6. Apply migrations to the Supabase project before using the deployed app. Bootstrap an admin and approve demo or real listings as described in `ADMIN_SETUP.md`.
 
 Vercel hosts only the frontend; Supabase remains the backend/database. `npm run preview` is for local build verification, not the production server command.
+# mohalla-mart
