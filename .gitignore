@@ -1,0 +1,50 @@
+# Dependencies and package-manager output
+node_modules/
+.npm-cache/
+.pnpm-store/
+.yarn/cache/
+
+# Build output and generated test artifacts
+dist/
+dist-ssr/
+build/
+coverage/
+.vite/
+.cache/
+tmp/
+temp/
+
+# Environment variables: commit only the placeholder template
+.env
+.env.*
+!.env.example
+*.local
+
+# Supabase local CLI state
+supabase/.temp/
+
+# Logs and temporary files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
